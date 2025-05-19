@@ -45,8 +45,8 @@ print(f"Output: {result.get_values()}")
 ```python
 # Create processing chain:
 # INPUT -> [FIR1] -> [IIR1] -> [SUM]
-#                   ↗
-#         [NOISE] ─┘
+#                            ↗
+#                  [NOISE] ─┘
 
 proc = sp.SignalProcessor()
 
