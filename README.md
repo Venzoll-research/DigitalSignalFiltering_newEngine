@@ -44,9 +44,9 @@ print(f"Output: {result.get_values()}")
 ## Advanced Pipeline
 ```python
 # Create processing chain:
-# INPUT -> [FIR1] -> [IIR1] -> [SUM]
-#                            ↗
-#                  [NOISE] ─┘
+#  [MAIN] -> [FIR1] -> [SUM] -> [CLEAN]
+#                     ↗
+# [NOISE] -> [IIR1] ─┘
 
 proc = sp.SignalProcessor()
 
