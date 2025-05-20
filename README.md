@@ -44,7 +44,7 @@ print(f"Output: {result.get_values()}")
 ## Advanced Pipeline
 ```python
 # Create processing chain:
-#  [MAIN] -> [FIR1] -> [SUM] -> [CLEAN]
+#  [MAIN] -> [FIR1] -> [SUM] -> [OUTPUT]
 #                     ↗
 # [NOISE] -> [IIR1] ─┘
 
